@@ -1,5 +1,5 @@
 import { GlobalStyle } from "./components/styled/Global.styled";
-import { Hero, Nav } from "./components";
+import { Hero, Nav, Cards } from "./components";
 
 const App = () => {
   return (
@@ -7,6 +7,7 @@ const App = () => {
       <GlobalStyle />
       <Nav />
       <Hero />
+      <Cards />
     </div>
   );
 };
