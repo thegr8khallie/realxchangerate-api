@@ -19,6 +19,7 @@ export const GlobalStyle = createGlobalStyle`
         font-size: 1.6rem;
         font-family: 'Inter', sans-serif;
         font-weight: 400;
+        overflow-x: hidden;
     }
     img {
         width: 100%;
