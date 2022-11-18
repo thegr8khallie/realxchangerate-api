@@ -27,6 +27,8 @@ export const StyledHero = styled.section`
     border-radius: 0.5rem;
     border: none;
     color: #fff;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-weight: 400;
   }
   .hero-image {
     flex-basis: 45%;

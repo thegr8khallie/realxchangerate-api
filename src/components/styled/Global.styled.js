@@ -17,6 +17,8 @@ export const GlobalStyle = createGlobalStyle`
     }
     body {
         font-size: 1.6rem;
+        font-family: 'Inter', sans-serif;
+        font-weight: 400;
     }
     img {
         width: 100%;
@@ -26,6 +28,7 @@ export const GlobalStyle = createGlobalStyle`
     }
     h1, h2, h3, h4, h5, h6 {
         color: #0f172a;
+        font-weight: 800;
     }
     p {
         color: #555962;

@@ -24,4 +24,15 @@ export const StyledBenefits = styled.section`
     font-size: 2.4rem;
     margin-bottom: 3.2rem;
   }
+  @media only screen and (max-width: 42rem) {
+    padding: 4rem 2rem;
+    height: 56rem;
+    div {
+      padding: 2.4rem;
+      width: 100%;
+    }
+    h5 {
+      font-size: 1.8rem;
+    }
+  }
 `;

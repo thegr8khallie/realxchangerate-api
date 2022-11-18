@@ -11,6 +11,7 @@ export const StyledNav = styled.nav`
   h1 {
     font-size: 3.6rem;
     color: #00296b;
+    font-weight: 700;
   }
   ul {
     display: flex;
