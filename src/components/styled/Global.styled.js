@@ -24,4 +24,11 @@ export const GlobalStyle = createGlobalStyle`
         object-fit: cover;
         object-position: center;
     }
+    h1, h2, h3, h4, h5, h6 {
+        color: #0f172a;
+    }
+    p {
+        color: #555962;
+        line-height: 2.4rem;
+    }
 `;
