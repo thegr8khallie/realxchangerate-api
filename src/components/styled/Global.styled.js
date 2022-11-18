@@ -18,4 +18,10 @@ export const GlobalStyle = createGlobalStyle`
     body {
         font-size: 1.6rem;
     }
+    img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        object-position: center;
+    }
 `;
