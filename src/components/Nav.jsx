@@ -1,9 +1,14 @@
 import { StyledNav } from "./styled/Nav.styled"
 import Burger from "../utils/Burger"
-import { useState } from "react"
+import { useEffect, useState } from "react"
 
 export const Nav = () => {
     const [isClosed, setIsClosed] = useState(false)
+    useEffect(() => {
+        if (window.innerWidth > 600) {
+            setIsClosed(true)
+        }
+    }, [])
     return (
         <StyledNav>
             <h1>Street Rates</h1>
