@@ -31,20 +31,35 @@ export const StyledNav = styled.nav`
     }
     li {
       font-size: 1.4rem;
-    }
-    li:nth-child(3) {
-      display: none;
+      &:nth-child(3) {
+        display: none;
+      }
     }
   }
   @media only screen and (max-width: 42rem) {
     background-color: #00296b;
-    padding: 0 3.1rem 0 1.6rem;
+    padding: 0 1.6rem;
     h1 {
       color: #fff;
       font-size: 2.2rem;
     }
     ul {
-      display: none;
+      padding: 4rem;
+      position: fixed;
+      top: 0;
+      right: 0;
+      flex-direction: column;
+      height: 70vh;
+      width: 70vw;
+      background-color: #00296b;
+      transition: 0.3s;
+    }
+    li {
+      font-size: 1.6rem;
+      color: #fff;
+      &:nth-child(3) {
+        display: block;
+      }
     }
   }
 `;
