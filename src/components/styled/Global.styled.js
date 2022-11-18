@@ -12,4 +12,10 @@ export const GlobalStyle = createGlobalStyle`
     a {
         text-decoration: none;
     }
+    html {
+        font-size: 0.625em;
+    }
+    body {
+        font-size: 1.6rem;
+    }
 `;
