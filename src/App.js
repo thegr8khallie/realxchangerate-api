@@ -1,11 +1,12 @@
 import { GlobalStyle } from "./components/styled/Global.styled";
-import { Nav } from "./components";
+import { Hero, Nav } from "./components";
 
 const App = () => {
   return (
     <div className="App">
       <GlobalStyle />
       <Nav />
+      <Hero />
     </div>
   );
 };
