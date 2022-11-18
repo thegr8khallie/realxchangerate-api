@@ -36,4 +36,10 @@ export const StyledFaqs = styled.section`
       }
     }
   }
+  @media only screen and (max-width: 42rem) {
+    padding: 4rem 2.4rem;
+    h4 {
+      font-size: 2.2rem;
+    }
+  }
 `;
