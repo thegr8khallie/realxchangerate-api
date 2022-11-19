@@ -14,7 +14,7 @@ export const Nav = () => {
     }, [])
     return (
         <StyledNav>
-            <h1>Street Rates</h1>
+            <h1>Street Rate</h1>
             <ul style={{ display: `${isClosed ? 'flex' : 'none'}` }}>
                 <li><div><img src={unionJack} alt="Union Jack" /></div><div><img src={DownArrow} alt="Down Arrow" /></div></li>
                 <li>Home</li>

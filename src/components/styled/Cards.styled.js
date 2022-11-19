@@ -52,7 +52,7 @@ export const StyledCards = styled.section`
     }
   }
   @media only screen and (max-width: 42rem) {
-    padding: 2rem 2rem 0 2rem;
+    padding: 2.4rem 2rem 0 2rem;
     background-color: #f1f5f9;
     ul {
       flex-direction: column;

@@ -46,5 +46,8 @@ export const StyledFaqs = styled.section`
     h4 {
       font-size: 2.2rem;
     }
+    li {
+      gap: 1.6rem;
+    }
   }
 `;
