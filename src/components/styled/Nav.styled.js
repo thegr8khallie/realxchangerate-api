@@ -74,7 +74,7 @@ export const StyledNav = styled.nav`
     li {
       font-size: 1.6rem;
       color: #fff;
-      &:nth-child(3) {
+      &:nth-child(4) {
         display: block;
       }
     }
