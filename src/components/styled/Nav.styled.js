@@ -19,8 +19,21 @@ export const StyledNav = styled.nav`
   }
   li {
     color: #94a3b8;
+    &:first-child {
+      display: flex;
+      gap: 1.5rem;
+      div:first-child {
+        width: 2.4rem;
+        height: 1.7rem;
+      }
+      div:last-child {
+        width: 1.6rem;
+        height: 0.7rem;
+      }
+    }
   }
-  @media only screen and (max-width: 76.8rem) {
+
+  @media only screen and (max-width: 87rem) {
     height: 5.6rem;
     padding: 0 8rem 0 9rem;
     h1 {
@@ -31,7 +44,7 @@ export const StyledNav = styled.nav`
     }
     li {
       font-size: 1.4rem;
-      &:nth-child(3) {
+      &:nth-child(4) {
         display: none;
       }
     }

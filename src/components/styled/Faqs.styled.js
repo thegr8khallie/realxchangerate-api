@@ -36,8 +36,13 @@ export const StyledFaqs = styled.section`
       }
     }
   }
+  @media only screen and (max-width: 87rem) {
+    background-color: #fff;
+    padding: 6rem 10rem;
+  }
   @media only screen and (max-width: 42rem) {
     padding: 4rem 2.4rem;
+    background-color: #f1f5f9;
     h4 {
       font-size: 2.2rem;
     }

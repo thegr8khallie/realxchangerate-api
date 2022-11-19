@@ -33,7 +33,7 @@ export const StyledHero = styled.section`
   .hero-image {
     flex-basis: 45%;
   }
-  @media only screen and (max-width: 76.8rem) {
+  @media only screen and (max-width: 87rem) {
     padding: 8rem 8rem 17.8rem 8rem;
     .hero-text {
       flex-basis: 40%;
@@ -42,7 +42,10 @@ export const StyledHero = styled.section`
       font-size: 3.6rem;
     }
     p {
-      width: 58.4rem;
+      width: 55rem;
+    }
+    .hero-image {
+      flex-basis: 50%;
     }
   }
   @media only screen and (max-width: 42rem) {

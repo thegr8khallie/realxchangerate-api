@@ -38,11 +38,14 @@ export const StyledCards = styled.section`
   .icon3 {
     background-color: #c3f2df;
   }
-  @media only screen and (max-width: 76.8rem) {
+  @media only screen and (max-width: 87rem) {
+    padding: 0 8rem;
+    background-color: #fff;
     ul {
+      transform: translateY(-9rem);
     }
     li {
-      padding: 4rem 2.4rem 8.9rem 2.4rem;
+      padding: 4rem 2.4rem;
       width: auto;
       flex-basis: 30%;
       height: auto;
@@ -50,6 +53,7 @@ export const StyledCards = styled.section`
   }
   @media only screen and (max-width: 42rem) {
     padding: 2rem 2rem 0 2rem;
+    background-color: #f1f5f9;
     ul {
       flex-direction: column;
       transform: translateY(-8rem);
