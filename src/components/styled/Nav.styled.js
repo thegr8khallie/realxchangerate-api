@@ -8,6 +8,9 @@ export const StyledNav = styled.nav`
   display: flex;
   justify-content: space-between;
   align-items: center;
+  position: fixed;
+  top: 0;
+  z-index: 1;
   h1 {
     font-size: 3.6rem;
     color: #00296b;
@@ -16,6 +19,7 @@ export const StyledNav = styled.nav`
   ul {
     display: flex;
     gap: 4.4rem;
+    z-index: 2;
   }
   li {
     color: #94a3b8;

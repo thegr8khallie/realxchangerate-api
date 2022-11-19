@@ -9,7 +9,10 @@ const HamBurger = styled.button`
     background-color: transparent;
     border: none;
     overflow: hidden;
-    z-index: 1;
+    z-index: 2;
+    position: fixed;
+    top: 0;
+    right: 0;
         .burger {
             position: relative;
             width: 3rem;

@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const StyledHero = styled.section`
-  padding: 8.7rem 12rem 19.5rem 12rem;
+  padding: 18.7rem 12rem 19.5rem 12rem;
   background-color: #e6efff;
   width: 100vw;
   display: flex;
@@ -34,7 +34,7 @@ export const StyledHero = styled.section`
     flex-basis: 45%;
   }
   @media only screen and (max-width: 87rem) {
-    padding: 8rem 8rem 17.8rem 8rem;
+    padding: 14rem 8rem 17.8rem 8rem;
     .hero-text {
       flex-basis: 40%;
     }
@@ -49,7 +49,7 @@ export const StyledHero = styled.section`
     }
   }
   @media only screen and (max-width: 42rem) {
-    padding: 4rem 2rem 13.5rem 2rem;
+    padding: 10rem 2rem 13.5rem 2rem;
     flex-direction: column;
     h1 {
       font-size: 2.8rem;
