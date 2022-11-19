@@ -9,7 +9,7 @@ export const StyledCards = styled.section`
     display: flex;
     width: 100%;
     justify-content: space-between;
-    transform: translateY(-10.5rem);
+    transform: translateY(-10rem);
   }
   li {
     background-color: #f8fafc;
@@ -42,7 +42,7 @@ export const StyledCards = styled.section`
     padding: 0 8rem;
     background-color: #fff;
     ul {
-      transform: translateY(-9rem);
+      transform: translateY(-10rem);
     }
     li {
       padding: 4rem 2.4rem;
@@ -67,7 +67,7 @@ export const StyledCards = styled.section`
     background-color: #f1f5f9;
     ul {
       flex-direction: column;
-      transform: translateY(-11rem);
+      transform: translateY(-10.9rem);
       gap: 2.4rem;
     }
     li {
